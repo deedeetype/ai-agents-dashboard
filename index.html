@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulp & Paper Industry Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pulp & Paper Industry Dashboard</h1>
+            <p class="last-updated">Last Updated: December 2024</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <!-- Market Overview -->
+            <div class="card">
+                <h2>Market Overview</h2>
+                <div class="metric">
+                    <span class="label">Global Market Size (2024)</span>
+                    <span class="value">$360.08B</span>
+                </div>
+                <div class="metric">
+                    <span class="label">Expected CAGR (2024-2029)</span>
+                    <span class="value">1.23%</span>
+                </div>
+                <div class="metric">
+                    <span class="label">Projected Market Size (2032)</span>
+                    <span class="value">$391.39B</span>
+                </div>
+            </div>
+
+            <!-- Industry Trends -->
+            <div class="card">
+                <h2>Industry Trends</h2>
+                <ul class="trends-list">
+                    <li>Sustainability and eco-friendly production focus</li>
+                    <li>Digital transformation acceleration</li>
+                    <li>Synchronized demand growth across regions</li>
+                    <li>Emphasis on innovative packaging solutions</li>
+                </ul>
+            </div>
+
+            <!-- Market Demand Chart -->
+            <div class="card">
+                <h2>Global Pulp Demand Forecast</h2>
+                <canvas id="demandChart"></canvas>
+            </div>
+
+            <!-- Latest News -->
+            <div class="card">
+                <h2>Latest News</h2>
+                <div class="news-container">
+                    <div class="news-item">
+                        <h3>Market Growth</h3>
+                        <p>Global pulp market demand expected to reach 73.84 million tons by 2028</p>
+                    </div>
+                    <div class="news-item">
+                        <h3>Industry Innovation</h3>
+                        <p>Increasing emphasis on sustainability and innovation driving market growth</p>
+                    </div>
+                    <div class="news-item">
+                        <h3>Regional Developments</h3>
+                        <p>Synchronized demand growth expected across Europe, North America and East Asia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
